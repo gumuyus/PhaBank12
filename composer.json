@@ -1,0 +1,24 @@
+{
+	"name": "gumuyus/PhaBank12",
+		"description": "This is demo for build composer packagist .",
+		"type": "library",
+		"license": "kkkk",
+		"authors": [
+		{
+			"name": "gpweibo",
+			"email": "gpweibo@163.com"
+		}
+		],
+		"minimum-stability": "master",
+		"require": {
+			"php": ">=7.0.0"
+		},
+		"autoload": {
+			"psr-4": {
+				"Ford\\Escape\\": "src/Ford/Escape",
+				"Ford\\Fusion\\": "src/Ford/Fusion",
+				"Ford\\Focus\\": "src/Ford/Focus",
+				"Ford\\Fiesta\\": "src/Ford/Fiesta"
+			}
+		}
+}
